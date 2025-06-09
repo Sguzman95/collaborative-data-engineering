@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.venv/
+venv/
+.env
+
+# Data files (large datasets)
+data/raw/
+data/processed/
+*.parquet
+*.csv
+!data/samples/*.csv
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# Airflow (if using real Airflow later)
+airflow.cfg
+airflow.db
+logs/
