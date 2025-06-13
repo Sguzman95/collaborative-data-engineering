@@ -23,7 +23,7 @@ def load_to_warehouse(**context):
 
 def calculate_discounts():
     """Calculate discount percentages - TO BE ADDED"""
-    return {"rows_inserted": 1000, "quality_checks": "passed"}
+    return {"rows_inserted": 100, "quality_checks": "passed"}
 
 with DAG(
     'sales_pipeline',
