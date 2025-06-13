@@ -21,7 +21,6 @@ def load_to_warehouse(**context):
     return {"rows_inserted": 1000, "table": "sales_facts"}
 
 
-This function will be added by the engineer during the demo
 def calculate_discounts():
     """Calculate discount percentages - TO BE ADDED"""
     return {"rows_inserted": 1000, "quality_checks": "passed"}
