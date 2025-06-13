@@ -25,6 +25,14 @@ def calculate_discounts():
     """Calculate discount percentages - TO BE ADDED"""
     return {"rows_inserted": 100, "quality_checks": "passed"}
 
+def calculate_taxes():
+    """Calculate tax amounts - TO BE ADDED"""
+    return {"rows_inserted": 100, "quality_checks": "passed"}
+
+def calculate_bonus():
+    """Calculate bonus amounts - TO BE ADDED"""
+    return {"rows_inserted": 100, "quality_checks": "passed"}
+
 with DAG(
     'sales_pipeline',
     start_date=datetime(2025, 1, 1),
